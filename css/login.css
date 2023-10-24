@@ -1,0 +1,56 @@
+body{
+	background-color: #aeecff;
+background-image: linear-gradient(0deg, #aeecff 0%, #003d79 90%);
+font-family: "Lato", sans-serif;
+
+	
+	overflow-y: hidden; 
+	/* background-image: url("/src/assets/pdambtk.png"); */
+	/* background-size:cover; */
+}
+.navbar-inverse {
+	background-color: #333;
+}
+
+img{
+	width: 150px;
+	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+	
+}
+
+.navbar-color {
+	font-family: "Lato", sans-serif;
+	color: #fff;
+}
+.login-logo{
+	color: #1569C7; 
+	margin-top: -50px;
+	font-weight: bold;
+}
+.button{
+	margin-left: 110px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100px;
+	font-family: "Lato", sans-serif;
+}
+input{
+	margin-top: 10px;
+	font-family: "Lato", sans-serif;
+}
+blink,
+.blink {
+	animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
+
+.login-box-body {
+	border-radius: 10px;
+	overflow-y: hidden;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

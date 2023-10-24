@@ -1,0 +1,249 @@
+
+body {
+  background: #fffffe;
+  font-family: "Lato", sans-serif;
+  color: rgba(0, 61, 121);
+}
+
+ /* Gaya default */
+ /* .responsive-span {
+  margin-left: -780px;
+} */
+
+/* Gaya untuk perangkat dengan lebar layar kurang dari 768px */
+/* @media (max-width: 767px) {
+  .responsive-span {
+      margin-left: 0;
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+  }
+} */
+
+select {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  /* outline: none; */
+  border: none;
+  padding: 0px 20px;
+  /* background-color: transparent; */
+  background-color: #ffffff00;
+  /* border-bottom: 1px solid #050505; */
+  color: #000000;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  /* outline: none; */
+  border: none;
+  padding: 0px 20px;
+  /* background-color: transparent; */
+  background-color: #ffffff00;
+  /* border-bottom: 1px solid #050505; */
+  color: #000000;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+.card {
+  width: 100%;
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+  color: #5f6c7b;
+    background-color: #fffffe;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width:575.98px) {
+  .card {
+      margin-top: 15%;
+  font-family: "Lato", sans-serif;
+  }
+}
+
+/* .my-custom-scrollbar {
+  position: relative;
+  height: 550px;
+  overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+  display: block;
+} */
+
+img.gambar {
+  /* border: 1px solid #ddd; Gray border */
+  border-radius: 10px;
+  /* Rounded border */
+  padding: 5px;
+  /* Some padding */
+  width: 200px;
+  /* Set a small width */
+  cursor: pointer;
+}
+
+/* Add a hover effect (blue shadow) */
+img.gambar:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* style for modal delete button */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cancelbtn,
+.deletebtn {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.cancelbtn:hover,
+.deletebtn:hover {
+  opacity: 1;
+  color: white;
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn,
+.deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  font-family: "Lato", sans-serif;
+  background-color: #959595;
+  color: white;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  font-family: "Lato", sans-serif;
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #474e5d81;
+  padding-top: 50px;
+  font-family: "Lato", sans-serif;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto auto auto auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+
+  /* Could be more or less, depending on screen size */
+}
+
+/* Gaya untuk gambar yang diperbesar */
+.zoomed {
+  /* width: auto !important; */
+  /* height: auto !important; */
+  max-width: 500px !important;
+  max-height: 500px !important;
+  cursor: zoom-in;
+}
+
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  font-family: "Lato", sans-serif;
+}
+
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+
+  .cancelbtn,
+  .deletebtn {
+      width: 100%;
+  }
+}
+
+/* End of style modal delete button */
+
+.table-active{
+  width: 25%;
+}
+
+
+.btn-add{
+  width: 160px; 
+  /* outline: 1px solid; */
+  border-radius: 5px;
+  background-color: #ffffff; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  
+  transition: box-shadow 0.3s ease;
+}
+
+
+.btn:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Bayangan yang lebih besar saat mengarahkan kursor ke tombol */
+  }

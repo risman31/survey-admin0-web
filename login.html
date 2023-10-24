@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <!-- Link CSS bootstraps 5 -->
+    <link href="./src/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="./src/dist/css/AdminLTE.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- 👇 css code file 👇 -->
+    <link rel="stylesheet" href="css/login.css" />
+    <!-- end Link CSS -->
+
+    <link href="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css
+    " rel="stylesheet">
+      <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js
+    "></script>
+
+    <title>Login - Survei Admin</title>
+
+    <link rel="shortcut icon" href="src/assets/img/logo-bulat.png">
+
+     <!-- Google Font -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-box">
+            <br />
+            <!-- /.login-logo -->
+            <div class="login-box-body">
+                <form>
+                    <div class="text-center">
+                        <img src="src/assets/img/logo-bulat.png" style="border:2px solid #ffffff;" class="img-fluid my-2" alt="profile">
+                    </div>
+                    <div class="login-logo">
+                        <a><br/>LOGIN</a>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <input type="text" class="form-control" placeholder="Username" id="username" name="username" autocomplete="username" required>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <input type="password" class="form-control" placeholder="Password" id="password" name="password" autocomplete="current-password" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <input type="button" class="button btn btn-primary text-center" value="Login" onclick="login()">
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <div class="text-center">
+                        <a id="year" style="color: #1569C7;"> 
+                    </div>
+                </form>
+            </div>
+            <!-- /.login-box-body -->
+            <br />
+        </div>
+        <!-- /.login-box -->
+     </div>
+     
+     <script>
+        var year = new Date().getFullYear();
+        document.getElementById("year").innerHTML = "Copyright © " + year + " Perumda Tirta Pakuan Kota Bogor ";
+      </script>
+
+      <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+     <script src="js/login.js"></script>
+     
+    
+</body>
+
+</html>

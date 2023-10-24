@@ -1,0 +1,43 @@
+td {
+    cursor: pointer;
+}
+
+body {
+  background: #fffffe;
+    font-family: "Lato", sans-serif;
+    color: rgba(0, 61, 121);
+
+}
+
+.card {
+    width: 100%;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+    color: #5f6c7b;
+    background-color: #fffffe;
+}
+
+@media only screen and (max-width:575.98px) {
+    .card {
+        margin-top: 15%;
+        font-family: "Lato", sans-serif;
+    }
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 550px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+  
+.btn:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Bayangan yang lebih besar saat mengarahkan kursor ke tombol */
+  }
+/* 
+  .export-buttons {
+    margin-right: 950px;
+  } */
